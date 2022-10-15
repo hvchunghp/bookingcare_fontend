@@ -71,7 +71,7 @@ class HomeHeader extends Component {
               </div>
             </div>
             <div className="right-content d-flex justify-content-end align-items-center col-6 col-md-6 col-lg-3">
-              <div className="support d-none d-md-flex">
+              <div className="support d-none d-md-block">
                 <i className="fa-solid fa-circle-question" />
                 <FormattedMessage id="homeHeader.support" />
               </div>
