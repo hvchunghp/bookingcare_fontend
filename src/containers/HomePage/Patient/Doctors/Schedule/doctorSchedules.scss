@@ -1,0 +1,37 @@
+.all-schedule {
+    select {
+        border       : none;
+        border-bottom: 1px solid black;
+        outline      : none;
+        color        : #337ab7;
+        font-weight  : bold;
+    }
+
+}
+
+.all-avalable-time {
+    .calendar {
+        font-size  : 17px;
+        font-weight: bold;
+    }
+
+    p {
+        button {
+            margin     : 5px 10px 5px 0;
+            width      : auto;
+            height     : auto;
+            min-width  : 180px;
+            font-weight: bold;
+            color      : #333;
+
+            &:hover {
+                background-color: #45c3d2;
+                color           : white;
+            }
+        }
+
+        label {
+            font-weight: 300;
+        }
+    }
+}

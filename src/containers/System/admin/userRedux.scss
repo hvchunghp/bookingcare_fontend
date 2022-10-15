@@ -1,0 +1,22 @@
+.privew-img-container {
+  .label-upload {
+    padding      : 5px 15px;
+    background   : #ddd;
+    border-radius: 3px;
+    cursor       : pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .privew-img {
+    overflow: hidden;
+
+    img {
+      width : 100%;
+      height: auto;
+      cursor: pointer;
+    }
+  }
+}

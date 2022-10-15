@@ -1,0 +1,119 @@
+{
+    "homeHeader": {
+        "specialist": "Medical specialty",
+        "findDoctors": "Find a doctor by specialty",
+        "healthFacilities": "Health facilities",
+        "chooseHospitalClinic": "Choose hospital, clinic",
+        "doctor": "Doctor",
+        "specialty": "Specialty",
+        "chooseDoctor": "Choose a good doctor",
+        "medicalPackage": "Check-up package",
+        "generalHealthCheck": "General health check",
+        "support": " Support",
+        "welcome": "Welcome"
+    },
+    "homeBanner": {
+        "medical-foundation": "MEDICAL FOUNDATION",
+        "health-care": "COMPREHENSIVE HEALTH CARE",
+        "search": "Search clinics, doctors, hospitals, disease symptoms,...",
+        "opt-1": "Specialized examination",
+        "opt-2": "Remote examination",
+        "opt-3": "General examination",
+        "opt-4": "Medical test",
+        "opt-5": "Mental health",
+        "opt-6": "Dental examination",
+        "opt-7": "Surgery package",
+        "opt-8": "Medical products",
+        "opt-9": "Business health"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User",
+            "manage-doctor": "Doctor management",
+            "manage-admin": "Manage admin",
+            "CRUD": "CRUD user",
+            "CRUD-redux": "CRUD redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage the clinic",
+            "specialty": "Specialty",
+            "manage-specialty": "Specialty management",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage the handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage doctor schedule",
+            "manage": "Management",
+            "manage-patient": "Manage patient"
+        }
+    },
+    "manage-user": {
+        "add": "Add new user",
+        "email": "Email",
+        "password": "Password",
+        "firstName": "FirstName",
+        "lastName": "LastName",
+        "phoneNumber": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "role": "Role",
+        "position": "Position",
+        "save": "Save user"
+    },
+    "homepage": {
+        "more": "View more",
+        "facility": "Facility",
+        "doctors": "Doctor",
+        "specialty": "Specialty"
+    },
+    "manage-schedule": {
+        "title": "Management of medical examination and treatment plan",
+        "selectDoctor": "Select a doctor",
+        "selectDate": "Select Date",
+        "buttonSave": "Save",
+        "examination-schedule": "Examination schedule",
+        "no-calendar": "The doctor has no appointment scheduled for this day!",
+        "titleAddress": "Address",
+        "clinicAddress": "Clinic address",
+        "cost": "cost",
+        "done": "Done",
+        "cancel": "Cancel",
+        "PatientID": "Patient ID",
+        "fullname": "Full name",
+        "phoneNumber": "Phone number",
+        "DoB": "Date of Birth",
+        "gender": "Gender",
+        "time": "Time",
+        "status": "Status",
+        "action": "Action"
+    },
+    "manage-doctor": {
+        "title": "DOCTOR MANAGE",
+        "selectDoctor": "Select a doctor",
+        "introductionInformation": "Introduction information",
+        "examinationPrice": "Examination price",
+        "province": "Province",
+        "clinicName": "Name of clinic/hospital",
+        "clinicAddress": "Clinic/hospital address",
+        "note": "Note",
+        "count": "Count",
+        "specialty": "Specialty"
+    },
+    "booking-appointment": {
+        "title": "Information to book a medical appointment",
+        "time": "Time of examination",
+        "fullname": "Fullname",
+        "phoneNumber": "Phone number",
+        "email": "Email address",
+        "address": "Address",
+        "dob": "Date of birth",
+        "Description": "Reason for examination, symptoms",
+        "confirm": "Confirm",
+        "close": "Close"
+    },
+    "verify": {
+        "titleSuccess": "Confirm successful",
+        "titleFailed": "Error!!!",
+        "DescriptionSuccess": "Your appointment has been confirmed",
+        "DescriptionFailed": "Something went wrong, please try again"
+    }
+}

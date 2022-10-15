@@ -1,0 +1,74 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+
+.login-background {
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    height    : 100vh;
+
+    .login-container {
+        width        : 400px;
+        height       : auto;
+        border-radius: 20px;
+        margin       : 0 auto;
+        background   : white;
+
+        a {
+            text-decoration: none;
+        }
+
+        input {
+            border-radius: 50px;
+        }
+
+        .login-input {
+            padding: 5px 10px;
+
+            .btn {
+                width        : 100%;
+                height       : 30px;
+                border-radius: 30px;
+                background   : linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+                color        : white;
+            }
+
+            .input-password {
+                position: relative;
+
+                .show-password {
+                    position: absolute;
+                    right   : 10px;
+                    top     : 10px;
+                    cursor  : pointer;
+                }
+            }
+        }
+
+        .forgot-password {
+            font-size: 12px;
+        }
+
+        .social-login {
+            display        : flex;
+            justify-content: center;
+
+            a {
+                i {
+                    font-size: 35px;
+                    margin   : 0 5px;
+                }
+
+                .fa-facebook {
+                    color: blue;
+                }
+
+                .fa-google-plus {
+                    color: red;
+                }
+
+                .fa-twitter {
+                    color: rgb(44, 89, 236);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.verify {
+    h1 {
+        color        : #88B04B;
+        font-family  : "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-weight  : 900;
+        font-size    : 40px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color      : #404F5E;
+        font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+        font-size  : 20px;
+        margin     : 0;
+    }
+
+    i {
+        color      : #9ABC66;
+        font-size  : 170px;
+        line-height: 200px;
+    }
+
+    .card {
+        background   : white;
+        border-radius: 4px;
+        box-shadow   : 0 2px 3px #C8D0D8;
+        display      : inline-block;
+    }
+
+}
+
+.loader {
+    border       : 16px solid #f3f3f3;
+    /* Light grey */
+    border-top   : 16px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width        : 120px;
+    height       : 120px;
+    animation    : spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

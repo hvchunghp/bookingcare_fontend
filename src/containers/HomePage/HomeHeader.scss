@@ -1,0 +1,171 @@
+@import url('https: //site-assets.fontawesome.com/releases/v6.2.0/css/all.css');
+@import url('https: //site-assets.fontawesome.com/releases/v6.2.0/css/sharp-solid.css');
+
+body {
+  overflow-x: hidden;
+}
+
+.home-header-container {
+  height : 70px;
+  width  : 100%;
+  padding: 0 20px;
+
+  .home-header-content {
+    width : 100%;
+    height: 100%;
+
+    .center-content {
+      .child-content {
+        .sub-title {
+          font-size  : 12px;
+          font-weight: 400;
+
+          @media(max-width: 1401px) {
+            font-size: 10px;
+          }
+        }
+
+
+      }
+    }
+
+    .left-content {
+      i {
+        font-size: 20px;
+        color    : grey;
+        cursor   : pointer;
+      }
+
+      a {
+        img {
+          transform: scale(0.7);
+          height   : 100%;
+          width    : 100%;
+        }
+      }
+    }
+
+    .right-content {
+      i {
+        color: rgb(59, 109, 245);
+      }
+
+      .support {
+        padding-right: 10px;
+      }
+
+      .language {
+        cursor : pointer;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+.home-header-banner {
+  background-image   : url('../../assets/images/cover1.jpg');
+  background-size    : cover;
+  background-position: center;
+  background-repeat  : no-repeat;
+  height             : 750px;
+
+  .banner-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25),
+        rgba(255, 255, 255, 0.1));
+
+    .content-up {
+      height: 80%;
+
+      @media (max-width: 1000px) {
+        height: 50%;
+      }
+
+      .title1,
+      .title2 {
+        text-align : center;
+        font-size  : 28px;
+        text-shadow: 1px 1px 1px #333;
+        color      : white;
+      }
+
+      .search {
+        width           : fit-content;
+        padding         : 10px;
+        margin          : 0 auto;
+        background-color: #f7d800;
+        border-radius   : 25px;
+
+        i {
+          margin: 0 5px;
+          cursor: pointer;
+        }
+
+        input {
+          background-color: transparent;
+          width           : 30vw;
+          min-width       : 300px;
+          height          : 30px;
+          border          : none;
+          outline         : none;
+        }
+      }
+    }
+
+    .content-down {
+      height: 20%;
+
+      @media (max-width: 1000px) {
+        height: 50%;
+      }
+
+      background-image: linear-gradient(rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.9),
+        rgba(255, 255, 255, 1));
+      padding-top   : 30px;
+      padding-bottom: 20px;
+
+      .options {
+        width: 100% !important;
+
+        li {
+          cursor : pointer;
+          padding: 10px;
+
+          i {
+            border-radius   : 50%;
+            width           : 55px;
+            height          : 55px;
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+            font-size       : 30px;
+            background-color: rgb(3, 183, 238);
+            color           : white;
+            padding         : 10px;
+          }
+
+          span {
+            display        : flex;
+            justify-content: center;
+            font-size      : 17px;
+            opacity        : 70%;
+            text-align     : center;
+            font-weight    : bold;
+          }
+
+          @media (max-width: 1400px) {
+            span {
+              font-size: 12px;
+            }
+          }
+        }
+
+        li:hover {
+          span {
+            color: rgb(3, 183, 238);
+          }
+        }
+      }
+    }
+  }
+}

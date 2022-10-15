@@ -1,0 +1,18 @@
+.handbook {
+    padding: 30px 0;
+    background-color: white;
+
+    .bg-img {
+        background-image: url('../../../assets/images/handbook/hb1.jpg');
+        height: 170px !important;
+    }
+
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: blue;
+        font-weight: bold;
+    }
+}

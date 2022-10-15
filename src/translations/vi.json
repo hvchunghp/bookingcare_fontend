@@ -1,0 +1,119 @@
+{
+    "homeHeader": {
+        "specialist": "Chuyên khoa",
+        "findDoctors": "Tìm bác sĩ theo chuyên khoa",
+        "healthFacilities": "Cơ sở y tế",
+        "chooseHospitalClinic": "Chọn bệnh viện, phòng khám",
+        "doctor": "Bác Sĩ",
+        "specialty": "Chuyên khoa",
+        "facility": "Cơ sở y tế",
+        "chooseDoctor": "Chọn bác sĩ giỏi",
+        "medicalPackage": "Gói khám",
+        "generalHealthCheck": "Khám sức khỏe tổng quát",
+        "support": " Hỗ trợ",
+        "welcome": "Xin chào"
+    },
+    "homeBanner": {
+        "medical-foundation": "NỀN TẢNG Y TẾ",
+        "health-care": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "opt-1": "Khám chuyên khoa",
+        "opt-2": "Khám từ xa",
+        "opt-3": "Khám tổng quát",
+        "opt-4": "Xét nghiệm y học",
+        "opt-5": "Sức khỏe tinh thần",
+        "opt-6": "Khám nha khoa",
+        "opt-7": "Gói phẫu thuật",
+        "opt-8": "Sản phẩm y tế ",
+        "opt-9": "Sức khỏe doanh nghiệp"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "CRUD": "CRUD user",
+            "CRUD-redux": "CRUD redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage": "Quản lý",
+            "manage-schedule": "Quản lý kế hoạch",
+            "manage-patient": "Quản lý bệnh nhân"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "phoneNumber": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "role": "Vai trò",
+        "position": "Chức vụ",
+        "save": "Lưu user"
+    },
+    "homepage": {
+        "more": "Xem thêm",
+        "doctors": "Bác sĩ",
+        "facility": "Cơ sở y tế",
+        "specialty": "Chuyên khoa"
+    },
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám chữa bệnh",
+        "selectDoctor": "Chọn bác sĩ",
+        "selectDate": "Chọn ngày",
+        "buttonSave": "Lưu",
+        "examination-schedule": "Lịch khám",
+        "no-calendar": "Bác sĩ không có lịch khám bệnh trong ngày này!",
+        "titleAddress": "Địa chỉ khám",
+        "clinicAddress": "Địa chỉ phòng khám",
+        "cost": "Giá khám",
+        "done": "Hoàn thành",
+        "cancel": "Hủy",
+        "PatientID": "ID bệnh nhân",
+        "fullname": "Họ và tên",
+        "phoneNumber": "Số điện thoại",
+        "DoB": "Ngày sinh",
+        "gender": "Giới tính",
+        "time": "Thời gian khám",
+        "status": "Trạng thái",
+        "action": "Hành động"
+    },
+    "manage-doctor": {
+        "title": "QUẢN LÝ BÁC SĨ",
+        "selectDoctor": "Chọn một bác sĩ",
+        "introductionInformation": "Thông tin giới thiệu",
+        "examinationPrice": "Giá khám",
+        "province": "Tỉnh thành",
+        "clinicName": "Tên phòng khám/bệnh viện",
+        "clinicAddress": "Địa chỉ phòng khám/bệnh viện",
+        "note": "Ghi chú",
+        "count": "Số lượng",
+        "specialty": "Chuyên khoa"
+    },
+    "booking-appointment": {
+        "title": "Thông tin đặt lịch khám bệnh",
+        "time": "Thời gian khám",
+        "fullname": "Họ và tên",
+        "phoneNumber": "Số điện thoại",
+        "email": "Địa chỉ Email",
+        "address": "Địa chỉ",
+        "dob": "Ngày sinh",
+        "Description": "Lý do khám, triệu chứng",
+        "confirm": "Xác nhận",
+        "close": "Đóng"
+    },
+    "verify": {
+        "titleSuccess": "Xác nhận thành công",
+        "titleFailed": "Lỗi!!!",
+        "DescriptionSuccess": "Lịch hẹn khám của bạn đã được xác nhận",
+        "DescriptionFailed": "Đã có lỗi gì đó, vui lòng thử lại"
+    }
+}
